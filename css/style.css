@@ -321,9 +321,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     left: 0;
     right: 0;
     padding: 15px px;
-    background-color: rgb(0, 0, 0) !important;
-    border-bottom: 1px solid rgb(0, 0, 0);
-    opacity: 80%;
+ 
+    border-bottom: 0px solid rgb(0, 0, 0);
+    opacity: 100%;
 }
 
 #nav.nav-transparent {
