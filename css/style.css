@@ -321,7 +321,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     left: 0;
     right: 0;
     padding: 15px px;
- 
+    /* background-color: rgb(0, 0, 0) !important; */
     border-bottom: 0px solid rgb(0, 0, 0);
     opacity: 100%;
 }
@@ -1621,13 +1621,13 @@ header {
 .contact {
     margin: 15px 0px;
     text-align: center;
-    background-color: black;
+    background-color: transparent;
     padding: 20px;
     border-radius: 10px;
     height: 200px;
 }
 .contact:hover {
-    background-color: rgb(255, 81, 0);
+    /* background-color: rgb(70, 68, 67); */
 }
 
 .contact:hover i {
@@ -1679,7 +1679,7 @@ header {
 
 .footer-logo {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 .footer-logo>a>img {
